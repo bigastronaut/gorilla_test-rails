@@ -7,8 +7,8 @@ Gem::Specification.new do |spec|
   spec.version       = GorillaTest::Version::STRING
   spec.authors       = ["Jim Ray"]
   spec.email         = ["jim@bigastronaut.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Includes script for gorilla test integration testing}
+  spec.summary       = %q{Inculde script for gorilla test integration testing}
   spec.homepage      = "http://gorillatest.com"
   spec.license       = "MIT"
 
