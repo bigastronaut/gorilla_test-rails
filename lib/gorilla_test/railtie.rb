@@ -5,7 +5,7 @@ module Rails
     class Railtie < Rails::Railtie
       initializer "setup config" do
         begin
-          ActionView::Base.send(:include, ::AutoTest::ViewHelper)
+          ActionView::Base.send(:include, ::GorillaTest::ViewHelper)
         end
       end
     end

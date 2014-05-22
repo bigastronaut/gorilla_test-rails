@@ -1,4 +1,4 @@
-require "autotest/rails/version"
+require "gorillatest/rails/version"
 
 module GorillaTest
   module Rails

@@ -1,21 +1,20 @@
 # coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'autotest/rails/version'
+$LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
+require 'gorilla_test/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "gorillatest"
-  spec.version       = GorillaTest::VERSION
+  spec.version       = GorillaTest::Version::STRING
   spec.authors       = ["Jim Ray"]
   spec.email         = ["jim@bigastronaut.com"]
   spec.description   = %q{TODO: Write a gem description}
   spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.homepage      = "http://gorillatest.com"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
+  spec.test_files    = spec.files.grep(%r{^(spec)/})
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.3"
