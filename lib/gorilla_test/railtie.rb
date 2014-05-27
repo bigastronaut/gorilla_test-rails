@@ -11,3 +11,4 @@ module Rails
     end
   end
 end
+require 'gorilla_test/railtie' if defined?(Rails)

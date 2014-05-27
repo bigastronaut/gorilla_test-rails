@@ -9,11 +9,11 @@ module GorillaTest
                   :env
 
     def initialize #:nodoc:
-      @ssl_api_url    = AUTOTEST_API_URL
-      @nonssl_api_url = AUTOTEST_NON_SSL_API_URL
-      @api_key        = ENV['AUTOTEST_API_KEY']
-      @project_id     = ENV['AUTOTEST_PROJECT_ID']
-      @env            = ENV['AUTOTEST_ENV']
+      @ssl_api_url    = GORILLA_TEST_API_URL
+      @nonssl_api_url = GORILLA_TEST_NON_SSL_API_URL
+      @api_key        = ENV['GORILLA_TEST_API_KEY']
+      @project_id     = ENV['GORILLA_TEST_PROJECT_ID']
+      @env            = ENV['GORILLA_TEST_ENV']
     end
 
     def api_server_url(ssl = nil) #:nodoc:
