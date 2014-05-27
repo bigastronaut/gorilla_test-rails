@@ -1,7 +1,7 @@
 module GorillaTest
   module Generators
 
-    class GorillaTestRailtie < Rails::Generators::Base
+    class Install < Rails::Generators::Base
       source_root File.expand_path("../templates", __FILE__)
       desc "Creates Jem initializer for your application"
       def copy_initializer
