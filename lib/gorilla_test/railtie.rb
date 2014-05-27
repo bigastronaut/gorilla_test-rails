@@ -1,5 +1,5 @@
 require 'net/http'
-require 'autotest'
+require 'gorilla_test'
 module Rails
   module GorillaTest
     class Railtie < Rails::Railtie

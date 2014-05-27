@@ -6,8 +6,8 @@ module GorillaTest
     include ActionPack
 
     def gorilla_test_script
-      javascript_include_tag("https://www.gorillatest.com/assets/recordv2.js", data: {project_id: "project_id",
-                                                                                      api_key:    "key"})
+      javascript_include_tag("https://www.gorillatest.com/assets/recordv2.js", data: {project_id: GorillaTest.configuration.project_id,
+                                                                                      api_key:    GorillaTest.configuration.api_key})
 
 
     end
