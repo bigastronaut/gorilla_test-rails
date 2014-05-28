@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/gorilla_test.svg)](http://badge.fury.io/rb/gorilla_test)
+
 # Autotest::Rails
 
 TODO: Write a gem description
@@ -28,4 +30,3 @@ TODO: Write usage instructions here
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-[![Gem Version](https://badge.fury.io/rb/gorilla_test.svg)](http://badge.fury.io/rb/gorilla_test)
