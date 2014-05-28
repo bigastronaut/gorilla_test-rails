@@ -1,11 +1,8 @@
-require 'gorilla_test'
+require 'gorilla_test/view_helper'
 module GorillaTest
   class Railtie < Rails::Railtie
     initializer "setup config" do
-      begin
-        ActionView::Base.send(:include, ::GorillaTest::ViewHelper)
-      end
+      ActionView::Base.send(:include, GorillaTest::ViewHelper)
     end
   end
 end
-require 'gorilla_test/railtie' if defined?(Rails)
