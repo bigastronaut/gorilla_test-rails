@@ -52,3 +52,5 @@ module GorillaTest
 
 
 end
+
+require 'gorilla_test/railtie' if defined?(Rails)

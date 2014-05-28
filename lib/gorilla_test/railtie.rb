@@ -1,12 +1,9 @@
-require 'net/http'
 require 'gorilla_test'
-module Rails
-  module GorillaTest
-    class Railtie < Rails::Railtie
-      initializer "setup config" do
-        begin
-          ActionView::Base.send(:include, ::GorillaTest::ViewHelper)
-        end
+module GorillaTest
+  class Railtie < Rails::Railtie
+    initializer "setup config" do
+      begin
+        ActionView::Base.send(:include, ::GorillaTest::ViewHelper)
       end
     end
   end

@@ -1,5 +1,4 @@
 module GorillaTest
-
   module ViewHelper
 
     include ActionView::Helpers
@@ -13,5 +12,4 @@ module GorillaTest
     end
 
   end
-
 end
