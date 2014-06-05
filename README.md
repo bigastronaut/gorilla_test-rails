@@ -1,6 +1,6 @@
 [![Gem Version](https://badge.fury.io/rb/gorilla_test.svg)](http://badge.fury.io/rb/gorilla_test)
 
-# Autotest::Rails
+# GorillaTest::Rails
 
 TODO: Write a gem description
 
@@ -8,7 +8,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'autotest-rails'
+    gem 'gorilla_test-rails'
 
 And then execute:
 
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install autotest-rails
+    $ gem install gorilla_test-rails
 
 ## Usage
 
