@@ -20,6 +20,7 @@ Or install it yourself as:
 
 ## Usage
 Once the gem is installed, run
+
     $ rails g gorilla_test:install
 
 This will create an initializer for your project, if you are using
