@@ -3,7 +3,7 @@ $LOAD_PATH.unshift File.expand_path("../lib", __FILE__)
 require 'gorilla_test/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "gorilla_test"
+  spec.name          = "gorilla_test-rails"
   spec.version       = GorillaTest::Version::STRING
   spec.authors       = ["Jim Ray"]
   spec.email         = ["jim@bigastronaut.com"]
