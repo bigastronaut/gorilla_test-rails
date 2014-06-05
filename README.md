@@ -19,6 +19,19 @@ Or install it yourself as:
     $ gem install gorilla_test-rails
 
 ## Usage
+Once the gem is installed, run
+    $ rails g gorilla_test:install
+
+This will create an initializer for your project, if you are using
+Heroku add-on, it is setup to use the ENV variables that are assigned
+to the project.
+
+If you are not using the Heroku add-on, please enter your auth-key and
+project id provided to you on Gorilla Test.
+
+To install the script, add the following to your application layout
+
+    gorilla_test_script
 
 TODO: Write usage instructions here
 
