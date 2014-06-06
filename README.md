@@ -1,4 +1,4 @@
-[![Gem Version](https://badge.fury.io/rb/gorilla_test.svg)](http://badge.fury.io/rb/gorilla_test)
+[![Gem Version](https://badge.fury.io/rb/gorilla_test-rails.svg)](http://badge.fury.io/rb/gorilla_test)
 
 # GorillaTest::Rails
 
