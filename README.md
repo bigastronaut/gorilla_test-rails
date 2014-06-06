@@ -8,7 +8,7 @@ TODO: Write a gem description
 
 Add this line to your application's Gemfile:
 
-    gem 'gorilla_test-rails'
+    gem 'gorilla_test-rails', require: 'gorilla_test'
 
 And then execute:
 
